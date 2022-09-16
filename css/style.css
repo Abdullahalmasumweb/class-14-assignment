@@ -1,0 +1,307 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    line-height: 24px;
+}
+h1, h2, h3, h4, h5, h6{
+    font-family: 'Montserrat', sans-serif;
+}
+a, a:hover{
+    text-decoration: none;
+}
+
+/*header-section start*/
+
+.header-section{
+    width: 100%;
+    padding: 15px 0px;
+    background: #fff;
+}
+.header-section .navbar-nav .nav-item .nav-link{
+    font-size: 14px;
+    font-family: 'Montserrat',sans-serif;
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 1px;
+    margin: 0px 0px 0px 20px;
+    color: #1f4f87;
+    transition: 1s;
+}
+.header-section .navbar-nav .nav-item .nav-link:hover,
+.header-section .navbar-nav .nav-item .nav-link:focus{
+    color: #e76128;
+}
+
+/*header-section End*/
+
+
+/*slider-section start*/
+
+.section-slider{
+    background-image: url(../images/slidec.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+    padding: 260px 0px;
+}
+.section-slider .fa.fa-arrow-down {
+    color: #fff;
+    margin-top: 196px;
+}
+.section-slider h1 {
+    color: #fff;
+    line-height: 90px;
+    font-size: 82px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+}
+/*slider-section End*/
+/*three-section start*/
+.part-three{
+    width: 100%;
+    margin: 127px 0px;
+}
+.part-three .inner-three{
+    width: 570px;
+
+}
+.part-three h2{
+    
+    font-size: 36px;
+        
+    font-weight: 700;
+    font-family: 'Montserrat', sans-serif;
+    padding: 36px 0px;
+    color: #3a1372;
+}
+.part-three p{
+    font-size: 14px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    color: #d6d1ce;
+    line-height: 27px;
+}
+    /*three-section End*/
+    /*four-section start*/
+
+    .partfour{
+        width: 100%;
+        background-image: url(../images/bg-four.png);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        height: 100vh;
+    }
+    .inner-divider-four{
+        text-align: center;
+        padding-bottom: 30px;
+    }
+    .inner-divider-four img{
+        padding-bottom: 15px;
+    }
+    .inner-divider-four h2{
+        font-size: 36px;
+        font-weight: 700;
+        color: #3a1372;
+    }
+    .partfour .col-lg-3{
+        text-align: center;
+        background-image: url(../images/part4-a.png);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        padding: 150px 0px 40px;
+        color: #fff;
+        margin-right: 10px;
+        
+    }
+    .partfour .row{
+        padding-top: 70px;
+    }
+    .partfour .two{
+        text-align: center;
+        background-image: url(../images/part4-b.png);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        color: #fff;
+    }
+    .partfour .three{
+        text-align: center;
+        background-image: url(../images/part4-c.png);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        color: #fff;
+    }
+    .partfour .arrow{
+        padding: 50px 0px;
+    }
+    .partfour h5{
+        font-family: 'Montserrat', sans-serif;
+        line-height: 30px;
+}
+.partfour .area .tt{
+    margin-top: 27px;
+}
+.partfour .col-lg-3:first-child{
+    margin-left: 110px;
+}
+    /*four-section End*/
+    /*attorney-section start*/
+
+    .attorney{
+        width: 100%;
+        padding: 110px 0px 50px;
+        background: url("../images/bg-5.png") center top no-repeat;
+        background-size: cover;
+        margin-top: 50px;
+    }
+    .attorney .title{
+        width: 100%;
+        padding: 0px 0px 20px;
+
+    }
+    .attorney .title h2{
+        font-size: 36px;
+        font-weight: 700;
+        text-transform: uppercase;
+        color: #fff;
+        letter-spacing: 2px;
+    }
+    .attorney .title p{
+        font-size: 14px;
+        line-height: 24px;
+        color: #7c84b8;
+    }
+    .attorney .title .btn{
+        color: #e76128;
+    }
+    .attorney .title a{
+        padding-left: 0px;
+        text-decoration: none;
+    }
+    .attorney .inner-image{
+        position: relative;
+    }
+    .attorney .inner-image .image-fluid{
+        width: 100%;
+    }
+    .attorney .inner-wedo{
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        top: 80%;
+        left:10%;
+    }
+    .attorney .inner-wedo h4{
+        font-size: 22px;
+        line-height: 32px;
+        font-weight: 700;
+        color: #fff;
+        text-transform: uppercase;
+    }
+    .attorney .col-lg-8 .row{
+        margin-bottom: 25px;
+        margin-right: 0px;
+    }
+    /*attorney-section End*/
+    .partsix{
+        width: 100%;
+        margin: 80px 0px;
+    }
+    .partsix .col-lg-12{
+        text-align: center;
+        margin-bottom: 40px;
+    }
+    .partsix .inner-part{
+        padding: 0px 10px;
+    }
+    .partsix .col-lg-12 h2{
+        font-size: 35px;
+        font-weight: 700;
+        color: #3a1372;
+        text-transform: uppercase;
+    }
+    .partsix .col-lg-3 h5{
+        font-size: 20px;
+        font-weight: 500;
+        text-transform: uppercase;
+        color: #3a1372;
+    }
+    .partsix .col-lg-3 p{
+        text-align: justify;
+        padding: 20px 0px;
+        letter-spacing: 1px;
+        word-wrap: break-word;
+        word-spacing: 1px;
+        font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    line-height: 24px;
+    color: #bab5b2;
+    }
+    .partsix .col-lg-3 a{
+        text-decoration: none;
+        padding-left: 0;
+        color: #e76128;
+    }
+    .partseven{
+        width: 100%;
+        background-color: #36226f;
+        padding: 80px 0px;
+    }
+    .partseven .col-lg-12{
+        text-align: center;
+    }
+    .partseven .arra{
+        width: 530px;
+        padding: 10px 5px;
+        margin: 10px 0px;
+        background-color: #36226f;
+        border-bottom: 1px solid rgb(143, 130, 130);
+        color: #fff;
+    }
+    .partseven input{
+        color: #fff;
+        border: none;
+    }
+    .partseven .btn-primary{
+        width: 200px;
+        font-size: 17px;
+        text-transform: uppercase;
+        background-color: #e76128;
+        color: #fff;
+        margin-top: 20px;
+        border: none;
+        padding: 10px 0px;
+    }
+    .partseven img{
+        padding-bottom: 10px;
+    }
+    .partseven h2{
+        padding-bottom: 20px;
+        font-size: 36px;
+        font-weight: 700;
+        color: #fff;
+    }
+.footer{
+    width: 100%;
+    padding: 30px 0px 20px 0px;
+    background-color: #16102b;
+    color: #fff;
+}
+    .footer ul{
+        list-style: none;
+    }
+    .footer ul li{
+        display: inline-block;
+        padding-right: 10px;
+    }
+    .footer .col-lg-6{
+        text-align: center;
+    }
